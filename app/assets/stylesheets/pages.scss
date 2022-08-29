@@ -1,0 +1,101 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Raleway:wght@500;800&display=swap');
+
+body {
+  background-image: url("https://raw.githubusercontent.com/tamaratgz/profile/master/images/home_background.jpg");
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-blend-mode: lighten;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  color: rgb(56, 56, 56);
+  line-height: 25px;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: rgb(56, 56, 56);
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: rgb(220, 114, 95);
+  color: white;
+  border-radius: 7px;
+  padding: 15px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+img {
+  object-fit: cover;
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+}
+
+.icon {
+  color: rgb(220, 114, 95);
+  font-size: 40px;
+  padding: 0px 5px;
+}
+
+.icon:hover {
+  color: rgb(220, 114, 95);
+}
+
+ul {
+  padding-inline-start: 0px;
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.container {
+  margin: 0px auto;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  padding: 50px 50px 30px;
+  box-shadow: 0px 10px 30px rgba(123, 123, 123, 0.2);
+  border-radius: 7px;
+  margin: 15px 350px;
+  text-align: center;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}

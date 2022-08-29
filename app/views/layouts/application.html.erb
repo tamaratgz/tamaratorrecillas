@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Tamaratorrecillas</title>
+    <title>¡Hola! Soy Tamara.</title>
+    <title>Tamara Torrecillas</title>
+    <meta name="description" content="Comunico, traduzco, enseño y programo. Porque la vida es muy corta como para no exprimirla.">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+    <link rel="stylesheet" href="pages.scss">
   </head>
 
   <body>
-    <%= yield %>
+    <%= yield %> <%# Views are integrated in the app with “yield" --> %>
   </body>
 </html>
